@@ -7,7 +7,7 @@ const server = http.createServer((req, res)=>{
     console.log(req.url);
     // / or /api /about.html
      
-    if( req.url ==='/'){
+    if( req.url =='/'){
      
         fs.readFile(path.join(__dirname,'public','index.html'),
         (err, content)=>{
@@ -20,7 +20,7 @@ const server = http.createServer((req, res)=>{
 
 
     }
-    else if(req.url ==='/about.html'){
+    else if(req.url =='/about.html'){
 
        
         fs.readFile(path.join(__dirname,'public','about.html'),
@@ -33,7 +33,7 @@ const server = http.createServer((req, res)=>{
 
 
     }
-    else if(req.url ==='/api'){
+    else if(req.url =='/api'){
 
         fs.readFile(path.join(__dirname,'public','db.json'), 'utf-8',
         (err, content)=>{

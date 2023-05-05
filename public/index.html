@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+
+    <div class="container">
+      
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#blog">BLOG</a>
+          <a href="#exp">EXPERIENCE</a>&nbsp;&nbsp;&nbsp;
+          <a href="#pro">PROJECT</a>&nbsp;&nbsp;&nbsp;
+          <a href="#edu">EDUCATION</a>&nbsp;&nbsp;&nbsp;
+          <a href="#abt">ABOUT</a>&nbsp;&nbsp;&nbsp;
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+
+      <div id="content">
+        <div id="abt">
+          <h1>About</h1>
+          <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png" class="img">
+        </div>
+
+        <div class="me">
+          <p > I have completed my bachelors in Information Science and currently pursuing MS in Computer Science. 
+          Inquisitive, energetic computer science graduate skilled in cloud computing, data warehousing, web development, as 
+          well as scripting languages, including Python, SQL, Java, and HTML. 
+          </p>
+          <a href="/" class="home">HOME</a>
+        </div>
+
+      </div>
+
+      <div id="edu">
+        <h1>Education</h1>
+        <ul class="master">
+          <li>Master of Science, Computer Science<br>University of New Haven</li>
+          <li>Bachelor of Information Science<br>RR Institute of Technology </li>
+        </ul>
+        <a href="/" class="home">HOME</a>
+      </div>
+
+      <div id="pro">
+        <h1>Projects</h1>
+        <ul class="master">
+          <li>AI Brain Tumor Detection</li>
+          <li>AWS BookStore</li>
+          <li>AI Chat Bot</li>
+          <li>Apartment Management System</li>
+        </ul>
+        <a href="/" class="home">HOME</a>
+      </div>
+
+      <div id="exp">
+        <h1>Experience</h1>
+        <p> I have gained experience through participating in an internship.The first internship was as a Software Developer Intern at 
+        Coherent Tech Inc. in Florida, USA from May 2022 to July 2022. During this internship, they were responsible for designing and 
+        implementing new software to maintain records in a database. They also wrote efficient code using HTML, CSS, Angular, and 
+        JavaScript and made improvements to existing webpages.
+        </p>
+        <p>The second internship was as a Web Development Intern at Parvam ConsulTech Pvt. Ltd. in Bangalore, India from July 2019 to 
+        August 2019. During this internship, they developed web pages to manage daily transactions for the company. They also designed 
+        and wrote efficient code for the My Hub application for their client using HTML, CSS, PHP, and MySQL.
+        </p>
+        <a href="/" class="home">HOME</a>
+      </div>
+
+      <div id="blog">
+        <h1>Blog</h1>
+        <img src="https://www.cell.com/cms/attachment/2002984216/2011334365/gr2.jpg" class="image">
+        <p> 
+          I completed my project on pathogenesis, which is the study of the origin and development of a disease. During the project, I 
+          conducted research to understand the causes and mechanisms of different diseases and their progression in the human body. I 
+          collected and analyzed relevant data, which allowed me to draw conclusions and propose potential solutions to prevent or treat 
+          these diseases. Through this project, I gained a deeper understanding of the complex processes involved in the development of 
+          diseases and the challenges faced in their management.
+        </p>
+        <a href="/" class="home">HOME</a>
+      </div>
+
+      <footer>
+        <a href="https://www.facebook.com/"><img src="https://i.pinimg.com/originals/ce/d6/6e/ced66ecfc53814d71f8774789b55cc76.png" class="pic"></a>
+        <a href="https://twitter.com/"><img src="https://store-images.s-microsoft.com/image/apps.45406.9007199266244427.4d45042b-d7a5-4a83-be66-97779553b24d.2a88a418-b96d-44a6-ad4f-5e0ee6289b2c" class="pic"></a>
+        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-234035450%3A1682886523030815&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&ifkv=Af_xneERaT2WJyJtQa4Dtioo89tTzeE4c50-pxcMk-MsiE7LCVgY-efmndb7VbYtpQWyFO5UIyoq&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="https://workspace.google.com/static/img/products/png/gmail.png?cache=f50ecb6" class="pic"></a>
+        <a href="https://www.linkedin.com/home"><img src="https://pbs.twimg.com/profile_images/1508518003184349187/1KQYoqPY_400x400.png" class="pic"></a>
+      </footer>
+
+    </div>
+
+ 
+
+
+  </body>
+
+
+  <style>
+
+  :root{
+    --cream: #FFEBCD;
+  }
+
+  .container{
+    width:100%;
+    font-family: 'Noto Serif',serif;
+    font-weight: 500;
+    font-size: lem;
+    color:var(--black);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.75fr 0.3fr 0.3fr 0.3fr 0.1fr;
+    grid-template-areas:
+    "nav nav"
+    "content content" 
+    "edu pro"
+    "exp exp"
+    "blog blog"
+    "footer footer"
+    ;
+    row-gap: 2rem;
+  }
+
+  nav{
+    background-color: var(--cream);
+    grid-area: nav;
+  }
+
+  #myTopnav{
+    text-align: right;
+    font-size: 30px;
+  }
+
+  .topnav{
+    overflow: hidden;
+    padding-right: 90px;
+    font-family: "Verdana", "Courier New", monospace;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #0000FF;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #82ee9d;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  #content{
+    background-color: var(--cream);
+    grid-area: content;
+  }
+
+
+  .img{
+    padding-left: 640px;
+    width: 250px;
+    height: 250px; 
+  }
+
+  h1{
+    text-align: center;
+    margin-left: 15px;
+    font-family: Castellar;
+    font-size: 40px;
+    color: #B40431;
+  }
+
+  p{
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+    padding-right: 20px;
+    font-family: Lucida Calligraphy;
+    font-size: 20px;
+    text-align: justify;
+    color: #0101df;
+    line-height: 2;
+  }
+
+  .home{
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+
+  #edu{
+    background-color: var(--cream);
+    height: 360px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-right: 10px;
+    grid-area: edu;
+  }
+
+  #pro{
+    background-color: var(--cream);
+    height: 364px;
+    grid-area: pro;
+  }
+
+  ul.master{
+    font-family: Lucida Calligraphy;
+    font-size: 25px;
+    line-height: 2;
+    padding-left: 140px;
+    color: #0101df;
+  }
+
+  #exp{
+    background-color: var(--cream);
+    padding-top: 1px;
+    grid-area: exp;
+  }
+
+  #blog{
+    background-color: var(--cream);
+    padding-top: 10px;
+    grid-area: blog;
+  }
+
+  .image{
+    padding-left: 400px;
+    width: 700px;
+    height: 400px;
+  }
+
+  footer{
+    background-color: var(--cream);
+    grid-area: footer;
+  }
+
+  .pic{
+    width: 50px;
+    height: 55px;
+    float: right;
+    padding: 10px;
+  }
+
+
+  </style>
+
+
+
+</html>

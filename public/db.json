@@ -1,0 +1,55 @@
+{"patho": [{
+  "id":1,
+  "title": "CARDIOVASCULAR DISEASE",
+  "imageURL": "https://dvl2h13awlxkt.cloudfront.net/assets/general-images/Knowledge/_1200x630_crop_center-center_82_none/CVD-iStock-1266230179.jpg?mtime=1653282840",
+  "description": "Cardiovascular diseases [CVD] are a group disorders related to heart and blood vessels. There are different types of CVD which are the leading causes of death globally.",
+  "types": "Types: Coronary heart diseases, Rheumatic heart diseases and Congenital heart diseases.",
+  "symptom": "Symptoms: Pain and discomfort of chest, left upper extremity, Severe headache, Fainting, Sweating and Difficulty in speech.",
+  "cause": "Cause: Hypertension, Smoking, High blood cholesterol, Overweight.",
+  "treatment":  "Treatment: Blood thinning medicine, Beta blockers, Bypass surgery, Stunts.",
+  "global": "https://www.healthyhk.gov.hk/phisweb/chart/chd_2_en.png"
+},
+{
+  "id":2,
+  "title": "CORONA VIRUS",
+  "description": "Corona virus disease also called COVID-19 is an infectious disease caused by the SARS-CoV-2 virus. This has caused a worldwide crisis causing numerous deaths. It also caused economic crisis. This outbreak began in Wuhan, China in December 2019.",
+  "imageURL": "https://www.efsa.europa.eu/sites/default/files/news/coronavirus.jpg",
+  "types": "Types: Alpha, Beta, Delta, and Omicron.",
+  "symptom": "Symptoms: Fever, Cold, Cough, Difficulty in breathing and Fatigue along with body ache.",
+  "cause": "Cause: It is a contagious disease which has wide spread through infected person’s close contact. It is caused due SARS-Cov-2 virus.",
+  "treatment":  "Treatment: The complete cure is yet to be discovered but vaccines and booster doses have been provided.",
+  "global": "https://www.statista.com/graphic/1/1102816/coronavirus-covid19-cases-number-us-americans-by-day.jpg"
+},
+{
+  "id":3,
+  "title": "PARKINSON'S DISEASE",
+  "description": " Parkinson’s disease [PD] or simply Parkinson’s is a chronic degenerative disorder of the central nervous system that mainly affects the motor system.",
+  "imageURL": "https://neurologysleepcentre.com/blog/wp-content/uploads/2021/12/parkinson2.jpg",
+  "types": "Types: Idiopathic Parkinson's, Vascular parkinsonism and Drug-induced parkinsonism.",
+  "symptom": "Symptoms: Tremor, Slowness of movement, Difficulty in walking, Speaking and Anxiety.",
+  "cause": "Cause: The cause of PD is generally unknown but a combination of genetic and environmental factors are believed to play a major role.",
+  "treatment":  "Treatment: PD is non-curable disease but is controlled by medications. Usually Levodopa medication is given to these patients.",
+  "global": "https://www.nzbri.org/resources/file/cumulative_frequency_above_age_2.png"
+},
+{
+  "id":4,
+  "title": "RENAL DISORDERS",
+  "description": "Renal disorders are related to the disfunctioning or abnormalities of kidney. This may include renal failure, calculus, transplantation or even congenital anomalies.",
+  "imageURL": "https://www.kidneyfund.org/sites/default/files/styles/fifty_fifty/public/media/images/Kidneys/kidney-illustration-red.jpeg?itok=fzzi9Cv5",
+  "types": "Types: Glomerulonephritis, Amyloidosis and Cystinosis.",
+  "symptom": "Symptoms: Weight loss with poor appetite, Swollen ankles, feet and hands, Tiredness and Blood in urine.",
+  "cause": "Cause: Diabetes, High blood pressure, Smoking, Drinking and Obesity.",
+  "treatment":  "Treatment: Lifestyle changes, Dialysis and Transplantation",
+  "global": "https://html.scirp.org/file/9-2070348x3.png"
+},
+{
+  "id":5,
+  "title": "ALZHEIMER’S DISEASE",
+  "description": "Alzheimer’s is a neurodegenerative disease t usually starts slowly and progressively worsens. It is a brain disorder which slowly destroys the memory and thinking skills of the patient along with destroying the ability to carry out the simplest tasks.",
+  "imageURL": "https://www.alzheimersla.org/wp-content/uploads/2021/04/Understanding-Memory-Loss-Alzheimers-disease-the-basics.jpg.png",
+  "types": "Types: Early-Onset, Late-Onset, and Familial.",
+  "symptom": "Symptoms: Memory loss problems, Language disorientation and Mood swings.",
+  "cause": "Cause: The proper cause is barely known but according to suspects it might be due to protein failed function, abnormal amount of amyloid beta, genetic variations.",
+  "treatment":  "Treatment: It is non-curable disease which is controlled and maintained by certain memory boosting activities, medications",
+  "global": "https://ind.ucsf.edu/sites/ind.ucsf.edu/files/wysiwyg/Extent%20of%20the%20Problem_0.jpg"
+}]}

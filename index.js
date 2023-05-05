@@ -1,7 +1,7 @@
 const http= require('http');
 const fs= require('fs');
 const path = require('path');
-const {MongoClient} = require('MongoDB');
+const {MongoClient} = require('mongodb');
 const uri ="mongodb+srv://vidya:kallur@cluster0.ekzc69q.mongodb.net/test";
 const client = new MongoClient(uri);
 
@@ -58,5 +58,5 @@ else{
 
 });
 
-const PORT = process.env.PORT || 1595;
+const PORT = process.env.PORT || 5555;
 server.listen(PORT,() => console.log(`yay the server is running finally ${PORT}`));

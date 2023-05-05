@@ -41,7 +41,7 @@ else if(req.url=='/api')
     //     res.writeHead(200,headers);		
     //     res.end(data);
     //     })
-    const cursor = client.db("patho").collection("pathogenesis").find({});
+    const cursor = client.db("patho").collection("patho.pathogenesis").find({});
 
     const results = await cursor.toArray();
  

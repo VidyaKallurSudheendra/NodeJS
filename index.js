@@ -34,6 +34,7 @@ const server = http.createServer((req, res)=>{
 
     }
     else if(req.url ==='/api'){
+        res.setHeader('Access-Control-Allow-Origin','*');
 
         fs.readFile(path.join(__dirname,'public','db.json'), 'utf-8',
         (err, content)=>{

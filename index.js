@@ -1,7 +1,7 @@
 const http= require('http');
 const fs= require('fs');
 const path = require('path');
-const {MongoClient} = require('mongodb');
+const {MongoClient} = require('MongoDB');
 const uri ="mongodb+srv://vidya:kallur@cluster0.ekzc69q.mongodb.net/test";
 const client = new MongoClient(uri);
 

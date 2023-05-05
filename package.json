@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^5.3.0",
+    "mongodb": "^5.3.0"",
     "nodemon": "^2.0.22"
    },
   "description": ""

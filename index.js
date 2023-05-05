@@ -34,8 +34,19 @@ const server = http.createServer((req, res)=>{
 
     }
     else if(req.url ==='/api'){
-        res.setHeader('Access-Control-Allow-Origin','*');
 
+        res.setHeader('Access-Control-Allow-Origin','*');
+        fs.readFile(path.join(__dirname,'public','db.json'),'utf-8',(err, content)=>{
+
+            if (err) throw err;
+            res.writeHead(200, {'Content-Type':'application/json'});
+            res.end(content);
+        })
+
+
+        }
+    /*else if(req.url ==='/api'){
+        res.setHeader('Access-Control-Allow-Origin','*');
         fs.readFile(path.join(__dirname,'public','db.json'), 'utf-8',
         (err, content)=>{
 
@@ -45,7 +56,7 @@ const server = http.createServer((req, res)=>{
         });
 
 
-    }
+    }*/
     else{
         res.writeHead(404, { 'Content-type': 'text/html'})  
         res.end("<h1> 404 Nothing is Here </h1>")
